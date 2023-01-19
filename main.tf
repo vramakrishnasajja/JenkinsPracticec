@@ -1,4 +1,5 @@
 provider "aws" {
+   profile = "terrafom-jenkins-role"
    access_key = "AKIA43CSMBFCUZTJRJWR"
    secret_key = "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"
    region     = "eu-west-2"
