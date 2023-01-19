@@ -1,7 +1,7 @@
 provider "aws" {
-   profile = "terrafom-jenkins-role"
-   access_key = "AKIA43CSMBFCUZTJRJWR"
-   secret_key = "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"
+   profile = "terrafom-1"
+   access_key = "AKIA43CSMBFC5YPJKNVW"
+   secret_key = "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"
    region     = "eu-west-2"
 }
 resource "aws_instance" "teraserver" {
