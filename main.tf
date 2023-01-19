@@ -1,7 +1,5 @@
 provider "aws" {
-  access_key = "AKIA43CSMBFC7LUYH32C"
-  secret_key = "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"
-  region     = "eu-west-2"
+   region     = "eu-west-2"
 }
 resource "aws_instance" "teraserver" {
   count           = "1"
