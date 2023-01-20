@@ -12,7 +12,7 @@ resource "aws_instance" "teraserver" {
   subnet_id       = "subnet-07b2b19da18ebe100"
   security_groups = ["sg-0513eab779ca52a7d"]
   tags = {
-    Name = "terform_server"
+    Name = "terform_server_London"
     Env  = "test"
   }
 }
