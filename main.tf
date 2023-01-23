@@ -1,5 +1,5 @@
 provider "aws" {
-  profile    = "IAM_VRKS"
+  profile    = "default"
   access_key = "AKIA43CSMBFCSUDLW6WU"
   secret_key = "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"
   region     = "eu-west-2"
