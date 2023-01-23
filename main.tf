@@ -1,4 +1,5 @@
 provider "aws" {
+  profile = "SVRK"
   access_key = "AKIA43CSMBFCWQMKRUEZ"
   secret_key = "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"
   region     = "eu-west-2"
